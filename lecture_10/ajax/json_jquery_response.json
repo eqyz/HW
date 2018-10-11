@@ -1,0 +1,22 @@
+{
+"id": "cars" ,
+"options": [
+{
+"text": "Volvo" ,
+"value": "volvo"
+},
+{
+"text": "Saab" ,
+"value": "saab"
+},
+{
+"text": "Mercedes" ,
+"value": "mercedes"
+},
+{
+"text": "Audi" ,
+"value": "audi"
+}
+],
+"selected": "saab"
+}

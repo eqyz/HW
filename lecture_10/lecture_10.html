@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script src="libraries/jquery.min.js"></script>
+		<script src="z.js"></script>
+	</head>
+	<body> 
+		<div>	
+			<br>
+				Player 1 name       
+				<input type="text" id="Player1" value="Player1">
+			</br>
+			<br>
+				Player 2 name       
+				<input type="text" id="Player2" value="Player2">
+			</br>
+			Game duration 
+			<select id="timerSelect">
+				<option value="15" selected>15 seconds</option>
+				<option value="30">30 seconds</option>
+				<option value="60">60 seconds</option>
+			</select>
+			<br>
+				<button id="startGame" >Start game</button>
+				<button id="finishGame" style="display:none">End game</button>
+				<div id="gameScore"></div>
+			</br>
+			<br>
+				<button id="history" >Games history</button>
+			</br>
+
+			
+		</div>
+
+		<div>
+			<button id="proxy" >Ajax request</button>
+		</div>
+				
+		
+	</body>
+	
+</html>
